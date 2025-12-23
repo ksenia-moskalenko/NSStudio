@@ -39,19 +39,301 @@ main > div {
 .w7 {
   animation: words7 2s ease-in-out infinite;
 }
-.c1 {
-  animation: opas 2s ease-in-out infinite;
-  animation-delay: 2s;
-}
-.curcle {
+
+.cyrcle {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
   padding: 1vw 0;
 }
-.curcle img {
+
+.img-wrapper {
   width: 5.3vw;
+  height: 5.3vw;
+  cursor: pointer;
+  background-image: url(../images/symbolWhite.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.3s ease;
+  animation: opas 2s infinite ease-in-out;
 }
+
+.img-wrapper:hover {
+  background-image: url(../images/blue.svg);
+}
+.img-wrapper:nth-child(1) {
+  animation-delay: 2s;
+}
+.img-wrapper:nth-child(2) {
+  animation-delay: 3.1s;
+}
+.img-wrapper:nth-child(3) {
+  animation-delay: 5.2s;
+}
+.img-wrapper:nth-child(4) {
+  animation-delay: 4.3s;
+}
+.img-wrapper:nth-child(5) {
+  animation-delay: 1s;
+}
+.img-wrapper:nth-child(6) {
+  animation-delay: 5s;
+}
+.img-wrapper:nth-child(7) {
+  animation-delay: 2.6s;
+}
+.img-wrapper:nth-child(8) {
+  animation-delay: 3.7s;
+}
+.img-wrapper:nth-child(9) {
+  animation-delay: 8s;
+}
+.img-wrapper:nth-child(10) {
+  animation-delay: 3s;
+}
+.img-wrapper:nth-child(11) {
+  animation-delay: 1s;
+}
+.img-wrapper:nth-child(12) {
+  animation-delay: 4s;
+}
+.img-wrapper:nth-child(13) {
+  animation-delay: 5.2s;
+}
+.img-wrapper:nth-child(14) {
+  animation-delay: 1.3s;
+}
+.img-wrapper:nth-child(15) {
+  animation-delay: 6.4s;
+}
+.img-wrapper:nth-child(16) {
+  animation-delay: 9.5s;
+}
+.img-wrapper:nth-child(17) {
+  animation-delay: 2.6s;
+}
+.img-wrapper:nth-child(18) {
+  animation-delay: 4.7s;
+}
+.img-wrapper:nth-child(19) {
+  animation-delay: 3.8s;
+}
+.img-wrapper:nth-child(20) {
+  animation-delay: 7.9s;
+}
+.img-wrapper:nth-child(21) {
+  animation-delay: 2s;
+}
+.img-wrapper:nth-child(22) {
+  animation-delay: 4s;
+}
+.img-wrapper:nth-child(23) {
+  animation-delay: 3s;
+}
+.img-wrapper:nth-child(24) {
+  animation-delay: 2s;
+}
+.img-wrapper:nth-child(25) {
+  animation-delay: 1.4s;
+}
+.img-wrapper:nth-child(26) {
+  animation-delay: 2.5s;
+}
+.img-wrapper:nth-child(27) {
+  animation-delay: 9s;
+}
+.img-wrapper:nth-child(28) {
+  animation-delay: 3s;
+}
+.img-wrapper:nth-child(29) {
+  animation-delay: 4s;
+}
+.img-wrapper:nth-child(30) {
+  animation-delay: 1s;
+}
+.img-wrapper:nth-child(31) {
+  animation-delay: 3s;
+}
+.img-wrapper:nth-child(32) {
+  animation-delay: 6s;
+}
+.img-wrapper:nth-child(33) {
+  animation-delay: 2s;
+}
+.img-wrapper:nth-child(34) {
+  animation-delay: 1s;
+}
+.img-wrapper:nth-child(35) {
+  animation-delay: 7s;
+}
+.img-wrapper:nth-child(36) {
+  animation-delay: 5s;
+}
+.img-wrapper:nth-child(37) {
+  animation-delay: 2s;
+}
+.img-wrapper:nth-child(38) {
+  animation-delay: 4.7s;
+}
+.img-wrapper:nth-child(39) {
+  animation-delay: 1.8s;
+}
+.img-wrapper:nth-child(40) {
+  animation-delay: 6.9s;
+}
+.img-wrapper:nth-child(41) {
+  animation-delay: 4s;
+}
+.img-wrapper:nth-child(42) {
+  animation-delay: 2s;
+}
+.img-wrapper:nth-child(43) {
+  animation-delay: 6s;
+}
+.img-wrapper:nth-child(44) {
+  animation-delay: 3s;
+}
+.img-wrapper:nth-child(45) {
+  animation-delay: 5s;
+}
+.img-wrapper:nth-child(46) {
+  animation-delay: 1s;
+}
+.img-wrapper:nth-child(47) {
+  animation-delay: 2.6s;
+}
+.img-wrapper:nth-child(48) {
+  animation-delay: 3s;
+}
+.img-wrapper:nth-child(49) {
+  animation-delay: 4.8s;
+}
+.img-wrapper:nth-child(50) {
+  animation-delay: 1.9s;
+}
+.img-wrapper:nth-child(51) {
+  animation-delay: 5s;
+}
+.img-wrapper:nth-child(52) {
+  animation-delay: 2.1s;
+}
+.img-wrapper:nth-child(53) {
+  animation-delay: 5.2s;
+}
+.img-wrapper:nth-child(54) {
+  animation-delay: 3.3s;
+}
+.img-wrapper:nth-child(55) {
+  animation-delay: 4.4s;
+}
+.img-wrapper:nth-child(56) {
+  animation-delay: 6.5s;
+}
+.img-wrapper:nth-child(57) {
+  animation-delay: 5.6s;
+}
+.img-wrapper:nth-child(58) {
+  animation-delay: 1s;
+}
+.img-wrapper:nth-child(59) {
+  animation-delay: 3.8s;
+}
+.img-wrapper:nth-child(60) {
+  animation-delay: 4.9s;
+}
+.img-wrapper:nth-child(61) {
+  animation-delay: 2s;
+}
+.img-wrapper:nth-child(62) {
+  animation-delay: 6s;
+}
+.img-wrapper:nth-child(63) {
+  animation-delay: 6.2s;
+}
+.img-wrapper:nth-child(64) {
+  animation-delay: 1s;
+}
+.img-wrapper:nth-child(65) {
+  animation-delay: 3s;
+}
+.img-wrapper:nth-child(66) {
+  animation-delay: 6.5s;
+}
+.img-wrapper:nth-child(67) {
+  animation-delay: 2s;
+}
+.img-wrapper:nth-child(68) {
+  animation-delay: 5s;
+}
+.img-wrapper:nth-child(69) {
+  animation-delay: 1.8s;
+}
+.img-wrapper:nth-child(70) {
+  animation-delay: 3.9s;
+}
+.img-wrapper:nth-child(71) {
+  animation-delay: 7s;
+}
+.img-wrapper:nth-child(72) {
+  animation-delay: 4s;
+}
+.img-wrapper:nth-child(73) {
+  animation-delay: 2.2s;
+}
+.img-wrapper:nth-child(74) {
+  animation-delay: 5s;
+}
+.img-wrapper:nth-child(75) {
+  animation-delay: 3.4s;
+}
+.img-wrapper:nth-child(76) {
+  animation-delay: 1.5s;
+}
+.img-wrapper:nth-child(77) {
+  animation-delay: 3.6s;
+}
+.img-wrapper:nth-child(78) {
+  animation-delay: 2.7s;
+}
+.img-wrapper:nth-child(79) {
+  animation-delay: 7.8s;
+}
+.img-wrapper:nth-child(80) {
+  animation-delay: 9s;
+}
+.img-wrapper:nth-child(81) {
+  animation-delay: 8s;
+}
+.img-wrapper:nth-child(82) {
+  animation-delay: 1s;
+}
+.img-wrapper:nth-child(83) {
+  animation-delay: 2.5s;
+}
+.img-wrapper:nth-child(84) {
+  animation-delay: 4.3s;
+}
+.img-wrapper:nth-child(85) {
+  animation-delay: 3.4s;
+}
+.img-wrapper:nth-child(86) {
+  animation-delay: 6.5s;
+}
+.img-wrapper:nth-child(87) {
+  animation-delay: 1.6s;
+}
+.img-wrapper:nth-child(88) {
+  animation-delay: 9s;
+}
+.img-wrapper:nth-child(89) {
+  animation-delay: 4s;
+}
+.img-wrapper:nth-child(90) {
+  animation-delay: 6.9s;
+}
+
 .blue1 {
   background-color: #4695f4;
   display: flex;
@@ -77,34 +359,35 @@ main > div {
 }
 .otsten1 {
   animation: tanim1 7s ease-in-out infinite;
+  animation-delay: 4s;
 }
 .otsten2 {
   animation: tanim2 7s ease-in-out infinite;
+  animation-delay: 1s;
 }
 .otsten3 {
   animation: tanim3 7s ease-in-out infinite;
 }
 .otsten4 {
   animation: tanim4 7s ease-in-out infinite;
+  animation-delay: 1.5s;
 }
 .otsten5 {
   animation: tanim5 7s ease-in-out infinite;
+  animation-delay: 2.5s;
 }
 .otsten6 {
   animation: tanim6 7s ease-in-out infinite;
 }
 .otsten7 {
   animation: tanim7 7s ease-in-out infinite;
+  animation-delay: 4s;
 }
 .otsten8 {
   animation: tanim8 7s ease-in-out infinite;
+  animation-delay: 3s;
 }
-.otsten9 {
-  animation: tanim9 7s ease-in-out infinite;
-}
-.otsten10 {
-  animation: tanim10 7s ease-in-out infinite;
-}
+
 .capsula1 {
   transform: rotate(-45deg);
   animation: rotatecap 1s ease infinite;
@@ -149,6 +432,7 @@ main > div {
   top: -5.47vw;
   left: -10.93vw;
   transform: scale(1);
+  animation: colorWave1 0.5s infinite ease-in-out;
 }
 .cyrcle2 {
   width: 68vw;
@@ -157,6 +441,7 @@ main > div {
   border-radius: 100%;
   position: absolute;
   transform: scale(0.9);
+  animation: colorWave2 0.5s infinite ease-in-out;
 }
 .cyrcle3 {
   width: 68vw;
@@ -165,6 +450,7 @@ main > div {
   border-radius: 100%;
   position: absolute;
   transform: scale(0.9);
+  animation: colorWave3 0.5s infinite ease-in-out;
 }
 .cyrcle4 {
   width: 68vw;
@@ -173,6 +459,7 @@ main > div {
   border-radius: 100%;
   position: absolute;
   transform: scale(0.9);
+  animation: colorWave1 0.5s infinite ease-in-out;
 }
 .cyrcle5 {
   width: 68vw;
@@ -181,6 +468,7 @@ main > div {
   border-radius: 100%;
   position: absolute;
   transform: scale(0.88);
+  animation: colorWave2 0.5s infinite ease-in-out;
 }
 .cyrcle6 {
   width: 68vw;
@@ -189,6 +477,7 @@ main > div {
   border-radius: 100%;
   position: absolute;
   transform: scale(0.87);
+  animation: colorWave3 0.5s infinite ease-in-out;
 }
 .cyrcle7 {
   width: 68vw;
@@ -197,6 +486,7 @@ main > div {
   border-radius: 100%;
   position: absolute;
   transform: scale(0.86);
+  animation: colorWave1 0.5s infinite ease-in-out;
 }
 .cyrcle8 {
   width: 68vw;
@@ -205,6 +495,7 @@ main > div {
   border-radius: 100%;
   position: absolute;
   transform: scale(0.85);
+  animation: colorWave2 0.5s infinite ease-in-out;
 }
 .cyrcle9 {
   width: 68vw;
@@ -213,6 +504,7 @@ main > div {
   border-radius: 100%;
   position: absolute;
   transform: scale(0.8);
+  animation: colorWave3 0.5s infinite ease-in-out;
 }
 .cyrcle10 {
   width: 68vw;
@@ -221,6 +513,7 @@ main > div {
   border-radius: 100%;
   position: absolute;
   transform: scale(0.7);
+  animation: colorWave1 0.5s infinite ease-in-out;
 }
 .cyrcle11 {
   width: 68vw;
@@ -229,6 +522,7 @@ main > div {
   border-radius: 100%;
   position: absolute;
   transform: scale(0.6);
+  animation: colorWave2 0.5s infinite ease-in-out;
 }
 .cyrcle12 {
   width: 68vw;
@@ -237,6 +531,7 @@ main > div {
   border-radius: 100%;
   position: absolute;
   transform: scale(0.5);
+  animation: colorWave3 0.5s infinite ease-in-out;
 }
 .seg23 {
   display: flex;
@@ -280,7 +575,14 @@ main > div {
 }
 .segm1 {
   position: absolute;
-  animation: bounce 3s linear infinite;
+  animation: bounce1 5s linear infinite, scalesymb 3s ease-in-out infinite,
+    rotsymb1 0.5s ease-in-out infinite;
+}
+.segm2 {
+  position: absolute;
+  animation: bounce2 5s linear infinite, scalesymb 3s ease-in-out infinite,
+    rotsymb1 0.5s ease-in-out infinite;
+  animation-delay: 0s 2s 0s;
 }
 .seg4 {
   background-color: #ffffff;
@@ -320,11 +622,98 @@ main > div {
   left: 3vw;
   position: absolute;
 }
-.tochka {
+.linekr {
+  width: 2vw;
+  height: 0.3vw;
+  background-color: #000000;
+  transform: rotate(90deg);
+  position: absolute;
+}
+.linekr:nth-of-type(6) {
+  top: 3vw;
+  left: 1.9vw;
+  position: absolute;
+}
+.linekr:nth-of-type(7) {
+  top: 3vw;
+  left: 47vw;
+  position: absolute;
+}
+.linekr:nth-of-type(8) {
+  top: 6.1vw;
+  left: 1.9vw;
+  position: absolute;
+}
+.linekr:nth-of-type(9) {
+  top: 6.1vw;
+  left: 47vw;
+  position: absolute;
+}
+.linekr:nth-of-type(10) {
+  top: 9.2vw;
+  left: 1.9vw;
+  position: absolute;
+}
+.linekr:nth-of-type(11) {
+  top: 9.2vw;
+  left: 47vw;
+  position: absolute;
+}
+.linekr:nth-of-type(12) {
+  top: 12.3vw;
+  left: 1.9vw;
+  position: absolute;
+}
+.linekr:nth-of-type(13) {
+  top: 12.3vw;
+  left: 47vw;
+  position: absolute;
+}
+.linekr:nth-of-type(14) {
+  top: 15.4vw;
+  left: 1.9vw;
+  position: absolute;
+}
+.linekr:nth-of-type(15) {
+  top: 15.4vw;
+  left: 47vw;
+  position: absolute;
+}
+.sdvig {
+  position: absolute;
   width: 1.9vw;
   height: 1.9vw;
   background-color: #4695f4;
   border-radius: 100%;
+}
+.sdvig:hover {
+  animation-play-state: paused;
+  background: rgb(0, 0, 0);
+}
+.shar1 {
+  position: absolute;
+  top: 2.2vw;
+  animation: slide 2s infinite ease-in-out alternate;
+}
+.shar2 {
+  position: absolute;
+  top: 5.2vw;
+  animation: slide 3s infinite ease-in-out alternate;
+}
+.shar3 {
+  position: absolute;
+  top: 8.4vw;
+  animation: slide 3.5s infinite ease-in-out alternate;
+}
+.shar4 {
+  position: absolute;
+  top: 11.4vw;
+  animation: slide 1.7s infinite ease-in-out alternate;
+}
+.shar5 {
+  position: absolute;
+  top: 14.6vw;
+  animation: slide 2.5s infinite ease-in-out alternate;
 }
 .row {
   display: block;
@@ -351,17 +740,20 @@ main > div {
   display: flex;
   justify-content: center;
   overflow: hidden;
+  z-index: -2;
 }
 .lines {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: -5vw;
   transform: translate(-50%, -50%);
+  transform: rotate(90deg);
+  z-index: -1;
 }
 .big img {
-  width: 32.3vw;
-  height: 69.2vw;
+  width: 75vw;
+  height: 56.9vw;
   overflow: hidden;
+  z-index: -1;
 }
 .big div {
   width: 1.9vw;
@@ -371,6 +763,7 @@ main > div {
   position: absolute;
   top: 0px;
   left: 640px;
+  z-index: 1;
 }
 .drop {
   position: absolute;
@@ -378,6 +771,7 @@ main > div {
   width: 4px;
   height: 20px;
   border-radius: 0 0 5px 5px;
+  z-index: 1;
 }
 .to1 {
   left: 3%;
@@ -809,6 +1203,7 @@ main > div {
   border-radius: 100%;
   border: 1px solid white;
   position: absolute;
+  animation: obvodopas 2.2s infinite;
 }
 .obvod:nth-last-of-type(1) {
   width: 4vw;
@@ -821,60 +1216,70 @@ main > div {
   height: 7vw;
   left: 1.3vw;
   top: 36vw;
+  animation-delay: 0.2s;
 }
 .obvod:nth-last-of-type(3) {
   width: 10vw;
   height: 10vw;
   left: 1.3vw;
   top: 32vw;
+  animation-delay: 0.4s;
 }
 .obvod:nth-last-of-type(4) {
   width: 13vw;
   height: 13vw;
   left: 1.3vw;
   top: 27.5vw;
+  animation-delay: 0.6s;
 }
 .obvod:nth-last-of-type(5) {
   width: 16vw;
   height: 16vw;
   left: 1.3vw;
   top: 23vw;
+  animation-delay: 0.8s;
 }
 .obvod:nth-last-of-type(6) {
   width: 19vw;
   height: 19vw;
   left: 1.3vw;
   top: 18vw;
+  animation-delay: 1s;
 }
 .obvod:nth-last-of-type(7) {
   width: 22vw;
   height: 22vw;
   left: 1.3vw;
   top: 13vw;
+  animation-delay: 1.2s;
 }
 .obvod:nth-last-of-type(8) {
   width: 25vw;
   height: 25vw;
   left: 2vw;
   top: 7vw;
+  animation-delay: 1.4s;
 }
 .obvod:nth-last-of-type(9) {
   width: 28vw;
   height: 28vw;
   left: 2.2vw;
   top: 1vw;
+  animation-delay: 1.6s;
 }
 .obvod:nth-last-of-type(10) {
   width: 31vw;
   height: 31vw;
   left: 2.3vw;
   top: -5vw;
+  animation-delay: 1.8s;
 }
 .obvod:nth-last-of-type(11) {
   width: 34vw;
   height: 34vw;
   left: 2.5vw;
   top: -12vw;
+  animation-delay: 2s;
 }
 .syring {
   display: inline;

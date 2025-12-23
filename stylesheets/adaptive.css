@@ -1,0 +1,323 @@
+@media screen and (max-width: 768px) {
+  .surcle {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .obj3 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .seg1 {
+    width: 100%;
+    height: 90vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    padding: 1vw 0;
+  }
+  .cyrcle1 {
+    width: 103vw;
+    height: 103vw;
+    background-color: #4695f4;
+    border-radius: 100%;
+    position: absolute;
+    top: -5vw;
+    left: -2vw;
+    transform: scale(1);
+    animation: colorWave1 0.5s infinite ease-in-out;
+  }
+  .cyrcle2,
+  .cyrcle3,
+  .cyrcle4,
+  .cyrcle5,
+  .cyrcle6,
+  .cyrcle7,
+  .cyrcle8,
+  .cyrcle9,
+  .cyrcle10,
+  .cyrcle11,
+  .cyrcle12 {
+    width: 103vw;
+    height: 103vw;
+  }
+  .seg23 {
+    width: 98.5vw;
+    height: 65vw;
+  }
+  .seg2 {
+    width: 98.5vw;
+    border-radius: 10px;
+  }
+  @keyframes bounce1 {
+    0% {
+      top: 0vw;
+      left: 0vw;
+      animation-timing-function: ease-in;
+    }
+
+    10% {
+      top: 90%;
+      left: 10vw;
+      animation-timing-function: ease-out;
+    }
+
+    20% {
+      top: 0vw;
+      left: 20vw;
+      animation-timing-function: ease-out;
+    }
+    30% {
+      top: 90%;
+      left: 40vw;
+      animation-timing-function: ease-out;
+    }
+    40% {
+      top: 0%;
+      left: 70vw;
+      animation-timing-function: ease-in;
+    }
+    50% {
+      top: 90%;
+      left: 90vw;
+      animation-timing-function: ease-out;
+    }
+    60% {
+      top: 0vw;
+      left: 70vw;
+      animation-timing-function: ease-out;
+    }
+    70% {
+      top: 90%;
+      left: 40vw;
+      animation-timing-function: ease-out;
+    }
+    80% {
+      top: 0%;
+      left: 20vw;
+      animation-timing-function: ease-in;
+    }
+    90% {
+      top: 90%;
+      left: 10vw;
+      animation-timing-function: ease-out;
+    }
+    100% {
+      top: 0vw;
+      left: 0%;
+    }
+  }
+  @keyframes bounce2 {
+    0% {
+      top: 0vw;
+      left: 0vw;
+      animation-timing-function: ease-in;
+    }
+
+    10% {
+      top: 3vw;
+      left: 90%;
+      animation-timing-function: ease-out;
+    }
+
+    20% {
+      top: 8vw;
+      left: 0vw;
+      animation-timing-function: ease-out;
+    }
+    30% {
+      top: 10vw;
+      left: 90%;
+      animation-timing-function: ease-out;
+    }
+    40% {
+      top: 15vw;
+      left: 0vw;
+      animation-timing-function: ease-in;
+    }
+    50% {
+      top: 20vw;
+      left: 90%;
+      animation-timing-function: ease-out;
+    }
+    60% {
+      top: 15vw;
+      left: 0vw;
+      animation-timing-function: ease-out;
+    }
+    70% {
+      top: 10vw;
+      left: 90%;
+      animation-timing-function: ease-out;
+    }
+    80% {
+      top: 8vw;
+      left: 0vw;
+      animation-timing-function: ease-in;
+    }
+    90% {
+      top: 3vw;
+      left: 90%;
+      animation-timing-function: ease-out;
+    }
+    100% {
+      top: 0vw;
+      left: 0%;
+    }
+  }
+  @keyframes scalesymb {
+    0% {
+      scale: 85%;
+    }
+    50% {
+      scale: 110%;
+    }
+    100% {
+      scale: 85%;
+    }
+  }
+
+  .phrase {
+    top: 2.5vw;
+    width: 98vw;
+    font-size: 5.3vw;
+  }
+  .seg3 {
+    border-radius: 10px;
+    width: 98.5vw;
+    height: 35vw;
+  }
+  .seg3 img {
+    position: absolute;
+    width: 10%;
+  }
+  .segm1 {
+    position: absolute;
+    animation: bounce1 5s linear infinite, scalesymb 3s ease-in-out infinite,
+      rotsymb1 0.5s ease-in-out infinite;
+  }
+  .segm2 {
+    position: absolute;
+    animation: bounce2 8s linear infinite, scalesymb 3s ease-in-out infinite,
+      rotsymb1 0.5s ease-in-out infinite;
+    animation-delay: 0s 2s 0s;
+  }
+  .seg4 {
+    width: 98.5vw;
+    border-radius: 10px;
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(4vw);
+    }
+    50% {
+      transform: translateX(90vw);
+    }
+    100% {
+      transform: translateX(4vw);
+    }
+  }
+
+  .linedv {
+    width: 92.5vw;
+  }
+
+  .linekr:nth-of-type(7) {
+    top: 3vw;
+    left: 94.5vw;
+    position: absolute;
+  }
+
+  .linekr:nth-of-type(9) {
+    top: 6.1vw;
+    left: 94.5vw;
+    position: absolute;
+  }
+
+  .linekr:nth-of-type(11) {
+    top: 9.2vw;
+    left: 94.5vw;
+    position: absolute;
+  }
+
+  .linekr:nth-of-type(13) {
+    top: 12.3vw;
+    left: 94.5vw;
+    position: absolute;
+  }
+
+  .linekr:nth-of-type(15) {
+    top: 15.4vw;
+    left: 94.5vw;
+    position: absolute;
+  }
+  .three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .obvod:nth-last-of-type(1) {
+    left: 6.5vw;
+    top: 39.6vw;
+  }
+  .obvod:nth-last-of-type(2) {
+    left: 7.3vw;
+    top: 36vw;
+  }
+  .obvod:nth-last-of-type(3) {
+    left: 8.3vw;
+    top: 32vw;
+  }
+  .obvod:nth-last-of-type(4) {
+    left: 10.3vw;
+    top: 27.5vw;
+  }
+  .obvod:nth-last-of-type(5) {
+    left: 11.3vw;
+    top: 23vw;
+  }
+  .obvod:nth-last-of-type(6) {
+    left: 12.3vw;
+    top: 18vw;
+  }
+  .obvod:nth-last-of-type(7) {
+    left: 14.3vw;
+    top: 13vw;
+  }
+  .obvod:nth-last-of-type(8) {
+    left: 16vw;
+    top: 8vw;
+  }
+  .obvod:nth-last-of-type(9) {
+    left: 17.2vw;
+    top: 2vw;
+  }
+  .obvod:nth-last-of-type(10) {
+    left: 20.5vw;
+    top: -3.4vw;
+  }
+  .obvod:nth-last-of-type(11) {
+    left: 23.5vw;
+    top: -10vw;
+  }
+  .tochka {
+    top: 42vw;
+    left: 5.4vw;
+  }
+  .volna {
+    width: 50%;
+  }
+  .fon {
+    width: 47vw;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .textlr {
+    width: 98.5vw;
+  }
+}
+@media screen and (min-width: 1280px) {
+}
