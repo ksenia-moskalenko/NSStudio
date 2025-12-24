@@ -1012,7 +1012,7 @@
     transform: translateX(0);
   }
   25% {
-    transform: translateX(-0.78);
+    transform: translateX(-0.78vw);
   }
   75% {
     transform: translateX(0.78vw);

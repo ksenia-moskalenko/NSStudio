@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .surcle {
     width: 100%;
     flex-direction: row;
@@ -318,6 +318,23 @@
   .textlr {
     width: 98.5vw;
   }
-}
-@media screen and (min-width: 1280px) {
+  .syring {
+    width: 47vw;
+  }
+  @keyframes swing {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-3vw);
+    }
+    75% {
+      transform: translateX(3vw);
+    }
+  }
+  .letter {
+    font-size: 3vw;
+    animation: swing 2s ease-in-out infinite;
+  }
 }
