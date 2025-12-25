@@ -4,7 +4,21 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-
+  .shar1 {
+    animation: slide-mobile 2s infinite ease-in-out alternate;
+  }
+  .shar2 {
+    animation: slide-mobile 3s infinite ease-in-out alternate;
+  }
+  .shar3 {
+    animation: slide-mobile 3.5s infinite ease-in-out alternate;
+  }
+  .shar4 {
+    animation: slide-mobile 1.7s infinite ease-in-out alternate;
+  }
+  .shar5 {
+    animation: slide-mobile 2.5s infinite ease-in-out alternate;
+  }
   .obj3 {
     width: 100%;
     flex-direction: column;
@@ -209,17 +223,6 @@
     width: 98.5vw;
     border-radius: 10px;
   }
-  @keyframes slide {
-    0% {
-      transform: translateX(4vw);
-    }
-    50% {
-      transform: translateX(90vw);
-    }
-    100% {
-      transform: translateX(4vw);
-    }
-  }
 
   .linedv {
     width: 92.5vw;
@@ -333,8 +336,23 @@
       transform: translateX(3vw);
     }
   }
+  .textlr {
+    width: 98vw;
+    position: relative;
+  }
+  .rad {
+    gap: 3.2vw;
+  }
   .letter {
     font-size: 3vw;
-    animation: swing 2s ease-in-out infinite;
+    animation: swing-mobile 4s ease-in-out infinite;
+  }
+  .letter:first-child {
+    position: absolute;
+    left: 5vw;
+  }
+  .letter:last-child {
+    position: absolute;
+    left: 93vw;
   }
 }

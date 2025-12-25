@@ -559,7 +559,7 @@ main > div {
   white-space: nowrap;
   overflow: hidden;
   border-right: 0.5vw solid rgb(0, 0, 0);
-  animation: cursor 0.75s step-end infinite, printed_text 5s steps(25);
+  animation: cursor 0.75s step-end infinite, printed_text 5s steps(25) infinite;
 }
 
 .seg3 {

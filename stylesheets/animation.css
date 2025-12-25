@@ -224,6 +224,17 @@
     transform: translateX(4vw);
   }
 }
+@keyframes slide-mobile {
+  0% {
+    transform: translateX(4vw);
+  }
+  50% {
+    transform: translateX(90vw);
+  }
+  100% {
+    transform: translateX(4vw);
+  }
+}
 @keyframes row {
   0% {
     transform: translateX(0);
@@ -1018,7 +1029,18 @@
     transform: translateX(0.78vw);
   }
 }
-
+@keyframes swing-mobile {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-3vw);
+  }
+  75% {
+    transform: translateX(3vw);
+  }
+}
 @keyframes rotatecap {
   0% {
     transform: rotate(-45deg);
